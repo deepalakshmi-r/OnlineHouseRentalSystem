@@ -1,0 +1,44 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="online_rental2.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>online rental</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="admin.css" />
+</head>
+<body>
+<div id="main_container">
+  <div id="header">
+    <div id="logo"><img src="images/logo2.png" width="147" height="78" alt="" border="0" /></a> </div>
+    <div class="banner_adds"></div>
+    <div class="menu">
+      <ul>
+        <li><a href="addhome.aspx">Add Home</a></li>
+               
+        <li><a href="adminview.aspx">View House</a>
+           </li>
+          <li><a href="Edithouse.aspx">Edit House</a>
+           </li>
+            <li><a href="Accept.aspx">Booking Details</a>
+           </li>
+            
+          
+         <li><a href="home.aspx">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+  
+
+
+      
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            
+           <div id="footer">
+     
+  <!-- end of main_container -->
+<div align=center>Copy rights 2021.All Rights Reserved.</a></div></body>
+</div>
+</html>
